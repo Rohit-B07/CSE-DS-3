@@ -6,7 +6,6 @@
       padding: 0;
     }
 
-    /* Header Section */
     .header {
       background-color: #222;
       color: white;
@@ -16,7 +15,6 @@
       font-weight: bold;
     }
 
-    /* Product Card */
     .product-card {
       width: 280px;
       background-color: white;
