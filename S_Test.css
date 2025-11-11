@@ -1,0 +1,14 @@
+.table{
+    border: solid;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+.hd{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
