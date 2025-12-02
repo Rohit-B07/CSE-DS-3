@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        
+        body{
+            display: flex;
+            justify-content: center;
+            background-color:#3a3a87;
+        }
+
+        .boxWpr{
+            position: relative;
+            padding-top: 70px;
+            text-align: center;
+        }
+
+        .margin{
+            background: #ff6f4f;
+            padding: 40px;
+        }
+
+        .broder{
+            background-color: #02a2c5;
+            padding: 40px;
+        }
+
+        .paddingBox{
+            background: #f7c744;
+            padding: 40px;
+        }
+
+        .contentBox{
+            background-color: #00caa4;
+            width: 400px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxWpr">
+            <h1 class="heading">CSS - BOX MODEL</h1>
+        <div class="margin"><p style="text-align: center; font-size: x-large;">MARGIN</p>
+            <div class="broder"><p style="text-align: center; font-size: x-large;">BORDER</p>
+                <div class="paddingBox"><p style="text-align: center; font-size: x-large;">PADDING</p>
+                    <div class="contentBox">
+                        <p style="text-align: center; font-size: x-large; padding-top: 25%;">CONTENT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
